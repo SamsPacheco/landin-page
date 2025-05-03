@@ -1,0 +1,125 @@
+
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+
+input::placeholder{
+    color: black ;
+}
+
+.timerText{
+    font-size: 12px;
+}
+
+.subparagraph{
+    font-size: 14px;
+}
+
+.logo{
+    width: 100%;
+}
+
+/* mdias for timer and subparagraph */
+@media (min-width: 768px) {
+    .timerText{
+        font-size: 14px;
+    }
+    .subparagraph{
+        font-size: 18px;
+    }
+
+    .logo{
+        width: 60px;
+    }
+
+    .title{
+        font-size: 40px;
+    }
+    .subtitle{
+        font-size: 30px;
+    }
+    .paragraph{
+        font-size: 18px;
+    }
+
+
+}
+
+.discount{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.banner-hero{
+    background-image: url('https://images.unsplash.com/photo-1525562723836-dca67a71d5f1?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.lamina{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.356);
+}
+
+.slider{
+    height: 180px;
+}
+
+.carousel-container{
+    width: 95%;
+}
+
+@media (min-width: 768px) {
+    .slider{
+        height: auto;
+    }
+    .footer{
+        padding: 40px;
+    }
+}
+
+
+/* customer */
+.customer{
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+.customer__img{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 10px;
+}
+
+.footer{
+    background-color: #F1F1F1;
+    padding: 20px;
+}
+
+.footer__container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.footer__links{
+    text-decoration: none;
+    color: black;
+}
+
+.footer__links:hover{
+    transition: ease-in-out 0.3s;
+    text-decoration: underline;
+    color: #932121;
+}
+
