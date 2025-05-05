@@ -165,3 +165,25 @@ input::placeholder{
     background-position: center;
     width: 100%;
 }
+
+/* estilos para la pagina VIP */
+
+.banner-hero-vip{
+    background-image: url('https://res.cloudinary.com/dy6x06uoe/image/upload/v1746463217/6056393_pxxlm2.jpg');
+    height: 50vh;
+    background-size: cover;
+    /* background-position: 0% 30%; */
+    background-position: center;
+    width: 100%;
+}
+
+.VIP__offer{
+    background-color: #A83338;
+    position: absolute;
+    width: 60px;
+    height: 25px;
+    border-radius: 5px;
+    text-align: center;
+    right: 0;
+    font-size: 12px;
+}
