@@ -13,10 +13,6 @@ input::placeholder{
     font-size: 12px;
 }
 
-.subparagraph{
-    font-size: 14px;
-}
-
 .logo{
     width: 100%;
 }
@@ -25,9 +21,6 @@ input::placeholder{
 @media (min-width: 768px) {
     .timerText{
         font-size: 14px;
-    }
-    .subparagraph{
-        font-size: 18px;
     }
 
     .logo{
@@ -40,10 +33,15 @@ input::placeholder{
     .subtitle{
         font-size: 30px;
     }
-    .paragraph{
-        font-size: 18px;
-    }
 
+    /*  */
+
+    .slider{
+        height: auto;
+    }
+    .footer{
+        padding: 40px;
+    }
 
 }
 
@@ -74,15 +72,6 @@ input::placeholder{
     width: 95%;
 }
 
-@media (min-width: 768px) {
-    .slider{
-        height: auto;
-    }
-    .footer{
-        padding: 40px;
-    }
-}
-
 .price{
     font-size: 14px;
     font-weight: semi-bold;
@@ -99,6 +88,9 @@ input::placeholder{
     border: none;
 }
 
+.card__img{
+    max-width: 350px;
+}
 
 /* customer */
 .customer{
@@ -141,22 +133,6 @@ input::placeholder{
 
 
 /* estilos para la pagina de sonido-accesorios.html */
-
-.card__container{
-    max-width: 375px;
-    border: 1px solid rgba(76, 75, 75, 0.273);
-    border-radius: 10px;
-}
-.card__img{
-    max-width: 300px;
-    object-fit: cover;
-    object-position: top;
-}
-
-.card__img:hover{
-    transform: scale(1.1);
-    transition: ease-in-out 0.3s;
-}
 
 .banner-hero-sonido_accesorios{
     background-image: url('https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2020/03/familia-viendo-disney-plus-1885289.jpg');
