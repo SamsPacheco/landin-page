@@ -99,7 +99,8 @@ input::placeholder{
 }
 
 .card__img{
-    max-width: 350px;
+    width: 100%;
+    padding: 20px;
 }
 
 /* customer */
